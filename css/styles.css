@@ -1,0 +1,809 @@
+html,body,
+div,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+p,
+blockquote,
+fieldset,
+input,
+button {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+address,
+caption,
+cite,
+code,
+em,
+strong,
+th {
+  font-weight: normal;
+  font-style: normal;
+}
+ul,
+ol {
+  list-style: none;
+}
+fieldset {
+  border: none;
+}
+th {
+  text-align: left;
+}
+caption,
+legend {
+  display: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+ul li ul li {
+  padding-left: 0px;
+  margin-left: 0;
+}
+body {
+  text-align: center;
+  margin: 0 auto;
+  font-family: Helvetica, Arial, sans-serif;
+  background: #f2f2f2;
+  -webkit-text-size-adjust: none;
+}
+a:hover,
+a:active,
+a:focus {
+  outline: none;
+}
+
+
+
+.graphPreloading {
+  float: left;
+  width: 100%;
+  height: 116px;
+}
+.graphPreloading img {
+  text-align: center;
+  padding: 30px 0 0 0;
+}
+.graphHRed {
+  float: left;
+  width: 100%;
+}
+.graphHRed div {
+  position: relative;
+  float: left;
+  width: 4px;
+  height: 80px;
+  min-height: 80px;
+  margin: 0 1px 0 0;
+}
+.graphHRed div span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 4px;
+  z-index: 7;
+  background-color: #b02e24;
+}
+.graphHRed div span.hover {
+  cursor: pointer;
+  background-color: #86231b;
+}
+.graphHRed div span.graphSpecial {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 4px;
+  z-index: 7;
+  background-color: #b02e24;
+}
+.graphHRed div span.graphSpecial.hover {
+  cursor: pointer;
+  background-color: #86231b;
+}
+.graphHRed div span.graphBarZero {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 4px;
+  height: 4px;
+  z-index: 8;
+  background-color: #ebebeb;
+}
+.graphHRed div span.graphBarZero.hover {
+  background-color: #999999;
+}
+.graphHGreen {
+  float: left;
+  width: 100%;
+}
+.graphHGreen div {
+  position: relative;
+  float: left;
+  width: 4px;
+  height: 80px;
+  min-height: 80px;
+  margin: 0 1px 0 0;
+}
+.graphHGreen div span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 4px;
+  z-index: 7;
+  background-color: #34a60c;
+}
+.graphHGreen div span.hover {
+  cursor: pointer;
+  background-color: #257609;
+}
+.graphHGreen div span.graphSpecial {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 4px;
+  z-index: 7;
+  background-color: #b02e24;
+}
+.graphHGreen div span.graphSpecial.hover {
+  cursor: pointer;
+  background-color: #86231b;
+}
+.graphHGreen div span.graphBarZero {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 4px;
+  height: 4px;
+  z-index: 8;
+  background-color: #ebebeb;
+}
+.graphHGreen div span.graphBarZero.hover {
+  background-color: #999999;
+}
+.graphHGold {
+  float: left;
+  width: 100%;
+}
+.graphHGold div {
+  position: relative;
+  float: left;
+  width: 4px;
+  height: 80px;
+  min-height: 80px;
+  margin: 0 1px 0 0;
+}
+.graphHGold div span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 4px;
+  z-index: 7;
+  background-color: #aaa61a;
+}
+.graphHGold div span.hover {
+  cursor: pointer;
+  background-color: #7e7b13;
+}
+.graphHGold div span.graphSpecial {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 4px;
+  z-index: 7;
+  background-color: #b02e24;
+}
+.graphHGold div span.graphSpecial.hover {
+  cursor: pointer;
+  background-color: #86231b;
+}
+.graphHGold div span.graphBarZero {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 4px;
+  height: 4px;
+  z-index: 8;
+  background-color: #ebebeb;
+}
+.graphHGold div span.graphBarZero.hover {
+  background-color: #999999;
+}
+.graphHYellow {
+  float: left;
+  width: 100%;
+}
+.graphHYellow div {
+  position: relative;
+  float: left;
+  width: 4px;
+  height: 80px;
+  min-height: 80px;
+  margin: 0 1px 0 0;
+}
+.graphHYellow div span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 4px;
+  z-index: 7;
+  background-color: #d6d14b;
+}
+.graphHYellow div span.hover {
+  cursor: pointer;
+  background-color: #c2bc2c;
+}
+.graphHYellow div span.graphSpecial {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 4px;
+  z-index: 7;
+  background-color: #b02e24;
+}
+.graphHYellow div span.graphSpecial.hover {
+  cursor: pointer;
+  background-color: #86231b;
+}
+.graphHYellow div span.graphBarZero {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 4px;
+  height: 4px;
+  z-index: 8;
+  background-color: #ebebeb;
+}
+.graphHYellow div span.graphBarZero.hover {
+  background-color: #999999;
+}
+.graphHOrange {
+  float: left;
+  width: 100%;
+}
+.graphHOrange div {
+  position: relative;
+  float: left;
+  width: 4px;
+  height: 80px;
+  min-height: 80px;
+  margin: 0 1px 0 0;
+}
+.graphHOrange div span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 4px;
+  z-index: 7;
+  background-color: #f3aa28;
+}
+.graphHOrange div span.hover {
+  cursor: pointer;
+  background-color: #dc910c;
+}
+.graphHOrange div span.graphSpecial {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 4px;
+  z-index: 7;
+  background-color: #b02e24;
+}
+.graphHOrange div span.graphSpecial.hover {
+  cursor: pointer;
+  background-color: #86231b;
+}
+.graphHOrange div span.graphBarZero {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 4px;
+  height: 4px;
+  z-index: 8;
+  background-color: #ebebeb;
+}
+.graphHOrange div span.graphBarZero.hover {
+  background-color: #999999;
+}
+.graphHOrangeDark {
+  float: left;
+  width: 100%;
+}
+.graphHOrangeDark div {
+  position: relative;
+  float: left;
+  width: 4px;
+  height: 80px;
+  min-height: 80px;
+  margin: 0 1px 0 0;
+}
+.graphHOrangeDark div span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 4px;
+  z-index: 7;
+  background-color: #c97c49;
+}
+.graphHOrangeDark div span.hover {
+  cursor: pointer;
+  background-color: #ac6333;
+}
+.graphHOrangeDark div span.graphSpecial {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 4px;
+  z-index: 7;
+  background-color: #b02e24;
+}
+.graphHOrangeDark div span.graphSpecial.hover {
+  cursor: pointer;
+  background-color: #86231b;
+}
+.graphHOrangeDark div span.graphBarZero {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 4px;
+  height: 4px;
+  z-index: 8;
+  background-color: #ebebeb;
+}
+.graphHOrangeDark div span.graphBarZero.hover {
+  background-color: #999999;
+}
+.graphHBrown {
+  float: left;
+  width: 100%;
+}
+.graphHBrown div {
+  position: relative;
+  float: left;
+  width: 4px;
+  height: 80px;
+  min-height: 80px;
+  margin: 0 1px 0 0;
+}
+.graphHBrown div span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 4px;
+  z-index: 7;
+  background-color: #98764e;
+}
+.graphHBrown div span.hover {
+  cursor: pointer;
+  background-color: #765c3d;
+}
+.graphHBrown div span.graphSpecial {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 4px;
+  z-index: 7;
+  background-color: #b02e24;
+}
+.graphHBrown div span.graphSpecial.hover {
+  cursor: pointer;
+  background-color: #86231b;
+}
+.graphHBrown div span.graphBarZero {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 4px;
+  height: 4px;
+  z-index: 8;
+  background-color: #ebebeb;
+}
+.graphHBrown div span.graphBarZero.hover {
+  background-color: #999999;
+}
+.graphHBlue {
+  float: left;
+  width: 100%;
+}
+.graphHBlue div {
+  position: relative;
+  float: left;
+  width: 4px;
+  height: 80px;
+  min-height: 80px;
+  margin: 0 1px 0 0;
+}
+.graphHBlue div span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 4px;
+  z-index: 7;
+  background-color: #609fc7;
+}
+.graphHBlue div span.hover {
+  cursor: pointer;
+  background-color: #4087b4;
+}
+.graphHBlue div span.graphSpecial {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 4px;
+  z-index: 7;
+  background-color: #b02e24;
+}
+.graphHBlue div span.graphSpecial.hover {
+  cursor: pointer;
+  background-color: #86231b;
+}
+.graphHBlue div span.graphBarZero {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 4px;
+  height: 4px;
+  z-index: 8;
+  background-color: #ebebeb;
+}
+.graphHBlue div span.graphBarZero.hover {
+  background-color: #999999;
+}
+.graphHVioleta {
+  float: left;
+  width: 100%;
+}
+.graphHVioleta div {
+  position: relative;
+  float: left;
+  width: 4px;
+  height: 80px;
+  min-height: 80px;
+  margin: 0 1px 0 0;
+}
+.graphHVioleta div span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 4px;
+  z-index: 7;
+  background-color: #9c51a8;
+}
+.graphHVioleta div span.hover {
+  cursor: pointer;
+  background-color: #7c4086;
+}
+.graphHVioleta div span.graphSpecial {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 4px;
+  z-index: 7;
+  background-color: #b02e24;
+}
+.graphHVioleta div span.graphSpecial.hover {
+  cursor: pointer;
+  background-color: #86231b;
+}
+.graphHVioleta div span.graphBarZero {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 4px;
+  height: 4px;
+  z-index: 8;
+  background-color: #ebebeb;
+}
+.graphHVioleta div span.graphBarZero.hover {
+  background-color: #999999;
+}
+.graphWRed {
+  margin: 0 auto;
+  width: 620px;
+  position: relative;
+  padding: 0 0 5px 0;
+}
+.graphWRed div {
+  background-color: #ebebeb;
+  height: 4px;
+}
+.graphWRed div span.bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 4px;
+  z-index: 7;
+  background-color: #b02e24;
+  position: absolute;
+}
+.graphWRed div span.bar.hover {
+  cursor: pointer;
+  background-color: #86231b;
+}
+.graphWRed div span.data {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  font-size: 11px;
+  color: #999999;
+  text-align: left;
+}
+.graphWGreen {
+  margin: 0 auto;
+  width: 620px;
+  position: relative;
+  padding: 0 0 5px 0;
+}
+.graphWGreen div {
+  background-color: #ebebeb;
+  height: 4px;
+}
+.graphWGreen div span.bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 4px;
+  z-index: 7;
+  background-color: #34a60c;
+  position: absolute;
+}
+.graphWGreen div span.bar.hover {
+  cursor: pointer;
+  background-color: #257609;
+}
+.graphWGreen div span.data {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  font-size: 11px;
+  color: #999999;
+  text-align: left;
+}
+.graphWGold {
+  margin: 0 auto;
+  width: 620px;
+  position: relative;
+  padding: 0 0 5px 0;
+}
+.graphWGold div {
+  background-color: #ebebeb;
+  height: 4px;
+}
+.graphWGold div span.bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 4px;
+  z-index: 7;
+  background-color: #aaa61a;
+  position: absolute;
+}
+.graphWGold div span.bar.hover {
+  cursor: pointer;
+  background-color: #7e7b13;
+}
+.graphWGold div span.data {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  font-size: 11px;
+  color: #999999;
+  text-align: left;
+}
+.graphWYellow {
+  margin: 0 auto;
+  width: 620px;
+  position: relative;
+  padding: 0 0 5px 0;
+}
+.graphWYellow div {
+  background-color: #ebebeb;
+  height: 4px;
+}
+.graphWYellow div span.bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 4px;
+  z-index: 7;
+  background-color: #d6d14b;
+  position: absolute;
+}
+.graphWYellow div span.bar.hover {
+  cursor: pointer;
+  background-color: #c2bc2c;
+}
+.graphWYellow div span.data {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  font-size: 11px;
+  color: #999999;
+  text-align: left;
+}
+.graphWOrange {
+  margin: 0 auto;
+  width: 620px;
+  position: relative;
+  padding: 0 0 5px 0;
+}
+.graphWOrange div {
+  background-color: #ebebeb;
+  height: 4px;
+}
+.graphWOrange div span.bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 4px;
+  z-index: 7;
+  background-color: #f3aa28;
+  position: absolute;
+}
+.graphWOrange div span.bar.hover {
+  cursor: pointer;
+  background-color: #dc910c;
+}
+.graphWOrange div span.data {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  font-size: 11px;
+  color: #999999;
+  text-align: left;
+}
+.graphWOrangeDark {
+  margin: 0 auto;
+  width: 620px;
+  position: relative;
+  padding: 0 0 5px 0;
+}
+.graphWOrangeDark div {
+  background-color: #ebebeb;
+  height: 4px;
+}
+.graphWOrangeDark div span.bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 4px;
+  z-index: 7;
+  background-color: #c97c49;
+  position: absolute;
+}
+.graphWOrangeDark div span.bar.hover {
+  cursor: pointer;
+  background-color: #ac6333;
+}
+.graphWOrangeDark div span.data {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  font-size: 11px;
+  color: #999999;
+  text-align: left;
+}
+.graphWBrown {
+  margin: 0 auto;
+  width: 620px;
+  position: relative;
+  padding: 0 0 5px 0;
+}
+.graphWBrown div {
+  background-color: #ebebeb;
+  height: 4px;
+}
+.graphWBrown div span.bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 4px;
+  z-index: 7;
+  background-color: #98764e;
+  position: absolute;
+}
+.graphWBrown div span.bar.hover {
+  cursor: pointer;
+  background-color: #765c3d;
+}
+.graphWBrown div span.data {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  font-size: 11px;
+  color: #999999;
+  text-align: left;
+}
+.graphWBlue {
+  margin: 0 auto;
+  width: 620px;
+  position: relative;
+  padding: 0 0 5px 0;
+}
+.graphWBlue div {
+  background-color: #ebebeb;
+  height: 4px;
+}
+.graphWBlue div span.bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 4px;
+  z-index: 7;
+  background-color: #609fc7;
+  position: absolute;
+}
+.graphWBlue div span.bar.hover {
+  cursor: pointer;
+  background-color: #4087b4;
+}
+.graphWBlue div span.data {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  font-size: 11px;
+  color: #999999;
+  text-align: left;
+}
+.graphWVioleta {
+  margin: 0 auto;
+  width: 620px;
+  position: relative;
+  padding: 0 0 5px 0;
+}
+.graphWVioleta div {
+  background-color: #ebebeb;
+  height: 4px;
+}
+.graphWVioleta div span.bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 4px;
+  z-index: 7;
+  background-color: #9c51a8;
+  position: absolute;
+}
+.graphWVioleta div span.bar.hover {
+  cursor: pointer;
+  background-color: #7c4086;
+}
+.graphWVioleta div span.data {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  font-size: 11px;
+  color: #999999;
+  text-align: left;
+}
+.graphBarData {
+  float: left;
+  width: 619px;
+  min-height: 16px;
+  padding: 10px 0px;
+  background-color: #f9f9f9;
+  text-align: center;
+  font-size: 12px;
+  color: #444444;
+}
