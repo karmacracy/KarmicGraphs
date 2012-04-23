@@ -1,730 +1,166 @@
-.graphPreloading {
-  float: left;
-  width: 100%;
-  height: 116px;
-}
-.graphPreloading img {
-  text-align: center;
-  padding: 30px 0 0 0;
-}
-.graphHRed {
-  float: left;
-  width: 100%;
-}
-.graphHRed div {
-  position: relative;
-  float: left;
-  width: 4px;
-  height: 80px;
-  min-height: 80px;
-  margin: 0 1px 0 0;
-}
-.graphHRed div span {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 4px;
-  z-index: 7;
-  background-color: #b02e24;
-}
-.graphHRed div span.hover {
-  cursor: pointer;
-  background-color: #86231b;
-}
-.graphHRed div span.graphSpecial {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 4px;
-  z-index: 7;
-  background-color: #b02e24;
-}
-.graphHRed div span.graphSpecial.hover {
-  cursor: pointer;
-  background-color: #86231b;
-}
-.graphHRed div span.graphBarZero {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 4px;
-  height: 4px;
-  z-index: 8;
-  background-color: #ebebeb;
-}
-.graphHRed div span.graphBarZero.hover {
-  background-color: #999999;
-}
-.graphHGreen {
-  float: left;
-  width: 100%;
-}
-.graphHGreen div {
-  position: relative;
-  float: left;
-  width: 4px;
-  height: 80px;
-  min-height: 80px;
-  margin: 0 1px 0 0;
-}
-.graphHGreen div span {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 4px;
-  z-index: 7;
-  background-color: #34a60c;
-}
-.graphHGreen div span.hover {
-  cursor: pointer;
-  background-color: #257609;
-}
-.graphHGreen div span.graphSpecial {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 4px;
-  z-index: 7;
-  background-color: #b02e24;
-}
-.graphHGreen div span.graphSpecial.hover {
-  cursor: pointer;
-  background-color: #86231b;
-}
-.graphHGreen div span.graphBarZero {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 4px;
-  height: 4px;
-  z-index: 8;
-  background-color: #ebebeb;
-}
-.graphHGreen div span.graphBarZero.hover {
-  background-color: #999999;
-}
-.graphHGold {
-  float: left;
-  width: 100%;
-}
-.graphHGold div {
-  position: relative;
-  float: left;
-  width: 4px;
-  height: 80px;
-  min-height: 80px;
-  margin: 0 1px 0 0;
-}
-.graphHGold div span {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 4px;
-  z-index: 7;
-  background-color: #aaa61a;
-}
-.graphHGold div span.hover {
-  cursor: pointer;
-  background-color: #7e7b13;
-}
-.graphHGold div span.graphSpecial {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 4px;
-  z-index: 7;
-  background-color: #b02e24;
-}
-.graphHGold div span.graphSpecial.hover {
-  cursor: pointer;
-  background-color: #86231b;
-}
-.graphHGold div span.graphBarZero {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 4px;
-  height: 4px;
-  z-index: 8;
-  background-color: #ebebeb;
-}
-.graphHGold div span.graphBarZero.hover {
-  background-color: #999999;
-}
-.graphHYellow {
-  float: left;
-  width: 100%;
-}
-.graphHYellow div {
-  position: relative;
-  float: left;
-  width: 4px;
-  height: 80px;
-  min-height: 80px;
-  margin: 0 1px 0 0;
-}
-.graphHYellow div span {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 4px;
-  z-index: 7;
-  background-color: #d6d14b;
-}
-.graphHYellow div span.hover {
-  cursor: pointer;
-  background-color: #c2bc2c;
-}
-.graphHYellow div span.graphSpecial {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 4px;
-  z-index: 7;
-  background-color: #b02e24;
-}
-.graphHYellow div span.graphSpecial.hover {
-  cursor: pointer;
-  background-color: #86231b;
-}
-.graphHYellow div span.graphBarZero {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 4px;
-  height: 4px;
-  z-index: 8;
-  background-color: #ebebeb;
-}
-.graphHYellow div span.graphBarZero.hover {
-  background-color: #999999;
-}
-.graphHOrange {
-  float: left;
-  width: 100%;
-}
-.graphHOrange div {
-  position: relative;
-  float: left;
-  width: 4px;
-  height: 80px;
-  min-height: 80px;
-  margin: 0 1px 0 0;
-}
-.graphHOrange div span {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 4px;
-  z-index: 7;
-  background-color: #f3aa28;
-}
-.graphHOrange div span.hover {
-  cursor: pointer;
-  background-color: #dc910c;
-}
-.graphHOrange div span.graphSpecial {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 4px;
-  z-index: 7;
-  background-color: #b02e24;
-}
-.graphHOrange div span.graphSpecial.hover {
-  cursor: pointer;
-  background-color: #86231b;
-}
-.graphHOrange div span.graphBarZero {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 4px;
-  height: 4px;
-  z-index: 8;
-  background-color: #ebebeb;
-}
-.graphHOrange div span.graphBarZero.hover {
-  background-color: #999999;
-}
-.graphHOrangeDark {
-  float: left;
-  width: 100%;
-}
-.graphHOrangeDark div {
-  position: relative;
-  float: left;
-  width: 4px;
-  height: 80px;
-  min-height: 80px;
-  margin: 0 1px 0 0;
-}
-.graphHOrangeDark div span {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 4px;
-  z-index: 7;
-  background-color: #c97c49;
-}
-.graphHOrangeDark div span.hover {
-  cursor: pointer;
-  background-color: #ac6333;
-}
-.graphHOrangeDark div span.graphSpecial {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 4px;
-  z-index: 7;
-  background-color: #b02e24;
-}
-.graphHOrangeDark div span.graphSpecial.hover {
-  cursor: pointer;
-  background-color: #86231b;
-}
-.graphHOrangeDark div span.graphBarZero {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 4px;
-  height: 4px;
-  z-index: 8;
-  background-color: #ebebeb;
-}
-.graphHOrangeDark div span.graphBarZero.hover {
-  background-color: #999999;
-}
-.graphHBrown {
-  float: left;
-  width: 100%;
-}
-.graphHBrown div {
-  position: relative;
-  float: left;
-  width: 4px;
-  height: 80px;
-  min-height: 80px;
-  margin: 0 1px 0 0;
-}
-.graphHBrown div span {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 4px;
-  z-index: 7;
-  background-color: #98764e;
-}
-.graphHBrown div span.hover {
-  cursor: pointer;
-  background-color: #765c3d;
-}
-.graphHBrown div span.graphSpecial {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 4px;
-  z-index: 7;
-  background-color: #b02e24;
-}
-.graphHBrown div span.graphSpecial.hover {
-  cursor: pointer;
-  background-color: #86231b;
-}
-.graphHBrown div span.graphBarZero {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 4px;
-  height: 4px;
-  z-index: 8;
-  background-color: #ebebeb;
-}
-.graphHBrown div span.graphBarZero.hover {
-  background-color: #999999;
-}
-.graphHBlue {
-  float: left;
-  width: 100%;
-}
-.graphHBlue div {
-  position: relative;
-  float: left;
-  width: 4px;
-  height: 80px;
-  min-height: 80px;
-  margin: 0 1px 0 0;
-}
-.graphHBlue div span {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 4px;
-  z-index: 7;
-  background-color: #609fc7;
-}
-.graphHBlue div span.hover {
-  cursor: pointer;
-  background-color: #4087b4;
-}
-.graphHBlue div span.graphSpecial {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 4px;
-  z-index: 7;
-  background-color: #b02e24;
-}
-.graphHBlue div span.graphSpecial.hover {
-  cursor: pointer;
-  background-color: #86231b;
-}
-.graphHBlue div span.graphBarZero {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 4px;
-  height: 4px;
-  z-index: 8;
-  background-color: #ebebeb;
-}
-.graphHBlue div span.graphBarZero.hover {
-  background-color: #999999;
-}
-.graphHVioleta {
-  float: left;
-  width: 100%;
-}
-.graphHVioleta div {
-  position: relative;
-  float: left;
-  width: 4px;
-  height: 80px;
-  min-height: 80px;
-  margin: 0 1px 0 0;
-}
-.graphHVioleta div span {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 4px;
-  z-index: 7;
-  background-color: #9c51a8;
-}
-.graphHVioleta div span.hover {
-  cursor: pointer;
-  background-color: #7c4086;
-}
-.graphHVioleta div span.graphSpecial {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 4px;
-  z-index: 7;
-  background-color: #b02e24;
-}
-.graphHVioleta div span.graphSpecial.hover {
-  cursor: pointer;
-  background-color: #86231b;
-}
-.graphHVioleta div span.graphBarZero {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 4px;
-  height: 4px;
-  z-index: 8;
-  background-color: #ebebeb;
-}
-.graphHVioleta div span.graphBarZero.hover {
-  background-color: #999999;
-}
-.graphWRed {
-  margin: 0 auto;
-  width: 620px;
-  position: relative;
-  padding: 0 0 5px 0;
-}
-.graphWRed div {
-  background-color: #ebebeb;
-  height: 4px;
-}
-.graphWRed div span.bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 4px;
-  z-index: 7;
-  background-color: #b02e24;
-  position: absolute;
-}
-.graphWRed div span.bar.hover {
-  cursor: pointer;
-  background-color: #86231b;
-}
-.graphWRed div span.data {
-  position: absolute;
-  top: 6px;
-  left: 0;
-  font-size: 11px;
-  color: #999999;
-  text-align: left;
-}
-.graphWGreen {
-  margin: 0 auto;
-  width: 620px;
-  position: relative;
-  padding: 0 0 5px 0;
-}
-.graphWGreen div {
-  background-color: #ebebeb;
-  height: 4px;
-}
-.graphWGreen div span.bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 4px;
-  z-index: 7;
-  background-color: #34a60c;
-  position: absolute;
-}
-.graphWGreen div span.bar.hover {
-  cursor: pointer;
-  background-color: #257609;
-}
-.graphWGreen div span.data {
-  position: absolute;
-  top: 6px;
-  left: 0;
-  font-size: 11px;
-  color: #999999;
-  text-align: left;
-}
-.graphWGold {
-  margin: 0 auto;
-  width: 620px;
-  position: relative;
-  padding: 0 0 5px 0;
-}
-.graphWGold div {
-  background-color: #ebebeb;
-  height: 4px;
-}
-.graphWGold div span.bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 4px;
-  z-index: 7;
-  background-color: #aaa61a;
-  position: absolute;
-}
-.graphWGold div span.bar.hover {
-  cursor: pointer;
-  background-color: #7e7b13;
-}
-.graphWGold div span.data {
-  position: absolute;
-  top: 6px;
-  left: 0;
-  font-size: 11px;
-  color: #999999;
-  text-align: left;
-}
-.graphWYellow {
-  margin: 0 auto;
-  width: 620px;
-  position: relative;
-  padding: 0 0 5px 0;
-}
-.graphWYellow div {
-  background-color: #ebebeb;
-  height: 4px;
-}
-.graphWYellow div span.bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 4px;
-  z-index: 7;
-  background-color: #d6d14b;
-  position: absolute;
-}
-.graphWYellow div span.bar.hover {
-  cursor: pointer;
-  background-color: #c2bc2c;
-}
-.graphWYellow div span.data {
-  position: absolute;
-  top: 6px;
-  left: 0;
-  font-size: 11px;
-  color: #999999;
-  text-align: left;
-}
-.graphWOrange {
-  margin: 0 auto;
-  width: 620px;
-  position: relative;
-  padding: 0 0 5px 0;
-}
-.graphWOrange div {
-  background-color: #ebebeb;
-  height: 4px;
-}
-.graphWOrange div span.bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 4px;
-  z-index: 7;
-  background-color: #f3aa28;
-  position: absolute;
-}
-.graphWOrange div span.bar.hover {
-  cursor: pointer;
-  background-color: #dc910c;
-}
-.graphWOrange div span.data {
-  position: absolute;
-  top: 6px;
-  left: 0;
-  font-size: 11px;
-  color: #999999;
-  text-align: left;
-}
-.graphWOrangeDark {
-  margin: 0 auto;
-  width: 620px;
-  position: relative;
-  padding: 0 0 5px 0;
-}
-.graphWOrangeDark div {
-  background-color: #ebebeb;
-  height: 4px;
-}
-.graphWOrangeDark div span.bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 4px;
-  z-index: 7;
-  background-color: #c97c49;
-  position: absolute;
-}
-.graphWOrangeDark div span.bar.hover {
-  cursor: pointer;
-  background-color: #ac6333;
-}
-.graphWOrangeDark div span.data {
-  position: absolute;
-  top: 6px;
-  left: 0;
-  font-size: 11px;
-  color: #999999;
-  text-align: left;
-}
-.graphWBrown {
-  margin: 0 auto;
-  width: 620px;
-  position: relative;
-  padding: 0 0 5px 0;
-}
-.graphWBrown div {
-  background-color: #ebebeb;
-  height: 4px;
-}
-.graphWBrown div span.bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 4px;
-  z-index: 7;
-  background-color: #98764e;
-  position: absolute;
-}
-.graphWBrown div span.bar.hover {
-  cursor: pointer;
-  background-color: #765c3d;
-}
-.graphWBrown div span.data {
-  position: absolute;
-  top: 6px;
-  left: 0;
-  font-size: 11px;
-  color: #999999;
-  text-align: left;
-}
-.graphWBlue {
-  margin: 0 auto;
-  width: 620px;
-  position: relative;
-  padding: 0 0 5px 0;
-}
-.graphWBlue div {
-  background-color: #ebebeb;
-  height: 4px;
-}
-.graphWBlue div span.bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 4px;
-  z-index: 7;
-  background-color: #609fc7;
-  position: absolute;
-}
-.graphWBlue div span.bar.hover {
-  cursor: pointer;
-  background-color: #4087b4;
-}
-.graphWBlue div span.data {
-  position: absolute;
-  top: 6px;
-  left: 0;
-  font-size: 11px;
-  color: #999999;
-  text-align: left;
-}
-.graphWVioleta {
-  margin: 0 auto;
-  width: 620px;
-  position: relative;
-  padding: 0 0 5px 0;
-}
-.graphWVioleta div {
-  background-color: #ebebeb;
-  height: 4px;
-}
-.graphWVioleta div span.bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 4px;
-  z-index: 7;
-  background-color: #9c51a8;
-  position: absolute;
-}
-.graphWVioleta div span.bar.hover {
-  cursor: pointer;
-  background-color: #7c4086;
-}
-.graphWVioleta div span.data {
-  position: absolute;
-  top: 6px;
-  left: 0;
-  font-size: 11px;
-  color: #999999;
-  text-align: left;
-}
-.graphBarData {
-  float: left;
-  width: 619px;
-  min-height: 16px;
-  padding: 10px 0px;
-  background-color: #f9f9f9;
-  text-align: center;
-  font-size: 12px;
-  color: #444444;
-}
+
+
+.graphPreloading{ width:100%;height:116px}
+.graphPreloading img{text-align:center;padding:30px 0 0 0}
+
+.graphCont{position:relative;width:100%;margin:20px 0 0 0}
+.graphLines{text-align:left;font-size:9px;color:#999}
+.graphLines span.first{padding-top:3px;position:absolute;left:0;top:0;width:100%;border-top:1px solid #ebebeb;z-index:0}
+.graphLines span.second{padding-top:3px;position:absolute;left:0;top:25%;width:100%;border-top:1px solid #ebebeb;z-index:0}
+.graphLines span.third{padding-top:3px;position:absolute;left:0;top:50%;width:100%;border-top:1px solid #ebebeb;z-index:0}
+.graphLines span.fourth{padding-top:3px;position:absolute;left:0;top:75%;width:100%;border-top:1px solid #ebebeb;z-index:0}
+
+.graphHRed{width:100%}
+.graphHRed div{position:relative; width:20px;height:120px;min-height:120px}
+.graphHRed div span.bar{position:absolute;bottom:0;left:0;width:20px;z-index:7;border-top:3px solid #b02e24;background-color:#eca5a0}
+.graphHRed div span.hover{cursor:pointer;background-color:#86231b}
+.graphHRed div span.graphSpecial{position:absolute;bottom:0;left:0;width:20px;z-index:7;border-top:3px solid #b02e24;background-color:#eca5a0}
+.graphHRed div span.graphSpecial.hover{cursor:pointer;background-color:#86231b}
+.graphHRed div span.graphBarZero{position:absolute;bottom:0;left:0;width:20px;height:4px;z-index:8;background-color:#ebebeb}
+.graphHRed div span.graphBarZero.hover{background-color:#999}
+.graphHGreen{width:100%}
+.graphHGreen div{position:relative; width:20px;height:120px;min-height:120px}
+.graphHGreen div span.bar{position:absolute;bottom:0;left:0;width:20px;z-index:7;border-top:3px solid #34a60c;background-color:#96f575}
+.graphHGreen div span.hover{cursor:pointer;background-color:#257609}
+.graphHGreen div span.graphSpecial{position:absolute;bottom:0;left:0;width:20px;z-index:7;border-top:3px solid #b02e24;background-color:#eca5a0}
+.graphHGreen div span.graphSpecial.hover{cursor:pointer;background-color:#86231b}
+.graphHGreen div span.graphBarZero{position:absolute;bottom:0;left:0;width:20px;height:4px;z-index:8;background-color:#ebebeb}
+.graphHGreen div span.graphBarZero.hover{background-color:#999}
+.graphHGold{width:100%}
+.graphHGold div{position:relative; width:20px;height:120px;min-height:120px}
+.graphHGold div span.bar{position:absolute;bottom:0;left:0;width:20px;z-index:7;border-top:3px solid #aaa61a;background-color:#eeeb8e}
+.graphHGold div span.hover{cursor:pointer;background-color:#7e7b13}
+.graphHGold div span.graphSpecial{position:absolute;bottom:0;left:0;width:20px;z-index:7;border-top:3px solid #b02e24;background-color:#eca5a0}
+.graphHGold div span.graphSpecial.hover{cursor:pointer;background-color:#86231b}
+.graphHGold div span.graphBarZero{position:absolute;bottom:0;left:0;width:20px;height:4px;z-index:8;background-color:#ebebeb}
+.graphHGold div span.graphBarZero.hover{background-color:#999}
+.graphHYellow{width:100%}
+.graphHYellow div{position:relative;width:20px;height:120px;min-height:120px;display:inline-block}
+.graphHYellow div span.bar{position:absolute;bottom:0;left:0;width:20px;z-index:7;border-top:3px solid #d6d14b;background-color:#f8f7e1}
+.graphHYellow div span.hover{cursor:pointer;background-color:#c2bc2c}
+.graphHYellow div span.graphSpecial{position:absolute;bottom:0;left:0;width:20px;z-index:7;border-top:3px solid #b02e24;background-color:#eca5a0}
+.graphHYellow div span.graphSpecial.hover{cursor:pointer;background-color:#86231b}
+.graphHYellow div span.graphBarZero{position:absolute;bottom:0;left:0;width:20px;height:4px;z-index:8;background-color:#ebebeb}
+.graphHYellow div span.graphBarZero.hover{background-color:#999}
+.graphHOrange{ width:100%}
+.graphHOrange div{position:relative; width:20px;height:120px;min-height:120px}
+.graphHOrange div span.bar{position:absolute;bottom:0;left:0;width:20px;z-index:7;border-top:3px solid #f3aa28;background-color:#fdefd6}
+.graphHOrange div span.hover{cursor:pointer;background-color:#dc910c}
+.graphHOrange div span.graphSpecial{position:absolute;bottom:0;left:0;width:20px;z-index:7;border-top:3px solid #b02e24;background-color:#eca5a0}
+.graphHOrange div span.graphSpecial.hover{cursor:pointer;background-color:#86231b}
+.graphHOrange div span.graphBarZero{position:absolute;bottom:0;left:0;width:20px;height:4px;z-index:8;background-color:#ebebeb}
+.graphHOrange div span.graphBarZero.hover{background-color:#999}
+.graphHOrangeDark{ width:100%}
+.graphHOrangeDark div{position:relative; width:20px;height:120px;min-height:120px}
+.graphHOrangeDark div span.bar{position:absolute;bottom:0;left:0;width:20px;z-index:7;border-top:3px solid #c97c49;background-color:#f3e2d7}
+.graphHOrangeDark div span.hover{cursor:pointer;background-color:#ac6333}
+.graphHOrangeDark div span.graphSpecial{position:absolute;bottom:0;left:0;width:20px;z-index:7;border-top:3px solid #b02e24;background-color:#eca5a0}
+.graphHOrangeDark div span.graphSpecial.hover{cursor:pointer;background-color:#86231b}
+.graphHOrangeDark div span.graphBarZero{position:absolute;bottom:0;left:0;width:20px;height:4px;z-index:8;background-color:#ebebeb}
+.graphHOrangeDark div span.graphBarZero.hover{background-color:#999}
+.graphHBrown{ width:100%}
+.graphHBrown div{position:relative; width:20px;height:120px;min-height:120px}
+.graphHBrown div span.bar{position:absolute;bottom:0;left:0;width:20px;z-index:7;border-top:3px solid #98764e;background-color:#ded0bf}
+.graphHBrown div span.hover{cursor:pointer;background-color:#765c3d}
+.graphHBrown div span.graphSpecial{position:absolute;bottom:0;left:0;width:20px;z-index:7;border-top:3px solid #b02e24;background-color:#eca5a0}
+.graphHBrown div span.graphSpecial.hover{cursor:pointer;background-color:#86231b}
+.graphHBrown div span.graphBarZero{position:absolute;bottom:0;left:0;width:20px;height:4px;z-index:8;background-color:#ebebeb}
+.graphHBrown div span.graphBarZero.hover{background-color:#999}
+.graphHBlue{ width:100%}
+.graphHBlue div{position:relative; width:20px;height:120px;min-height:120px}
+.graphHBlue div span.bar{position:absolute;bottom:0;left:0;width:20px;z-index:7;border-top:3px solid #609fc7;background-color:#e8f1f7}
+.graphHBlue div span.hover{cursor:pointer;background-color:#4087b4}
+.graphHBlue div span.graphSpecial{position:absolute;bottom:0;left:0;width:20px;z-index:7;border-top:3px solid #b02e24;background-color:#eca5a0}
+.graphHBlue div span.graphSpecial.hover{cursor:pointer;background-color:#86231b}
+.graphHBlue div span.graphBarZero{position:absolute;bottom:0;left:0;width:20px;height:4px;z-index:8;background-color:#ebebeb}
+.graphHBlue div span.graphBarZero.hover{background-color:#999}
+.graphHVioleta{ width:100%}
+.graphHVioleta div{position:relative; width:20px;height:120px;min-height:120px}
+.graphHVioleta div span.bar{position:absolute;bottom:0;left:0;width:20px;z-index:7;border-top:3px solid #9c51a8;background-color:#e2cbe6}
+.graphHVioleta div span.hover{cursor:pointer;background-color:#7c4086}
+.graphHVioleta div span.graphSpecial{position:absolute;bottom:0;left:0;width:20px;z-index:7;border-top:3px solid #b02e24;background-color:#eca5a0}
+.graphHVioleta div span.graphSpecial.hover{cursor:pointer;background-color:#86231b}
+.graphHVioleta div span.graphBarZero{position:absolute;bottom:0;left:0;width:20px;height:4px;z-index:8;background-color:#ebebeb}
+.graphHVioleta div span.graphBarZero.hover{background-color:#999}
+
+
+
+
+.graphWRed{width:100%}
+.graphWRed div{position:relative;width:4px;height:80px;min-height:80px;margin:0 1px 0 0;display:inline-block;}
+.graphWRed div span{position:absolute;bottom:0;left:0;width:4px;z-index:7;background-color:#b02e24}
+.graphWRed div span.hover{cursor:pointer;background-color:#86231b}
+.graphWRed div span.graphSpecial{position:absolute;bottom:0;left:0;width:4px;z-index:7;background-color:#b02e24}
+.graphWRed div span.graphSpecial.hover{cursor:pointer;background-color:#86231b}
+.graphWRed div span.graphBarZero{position:absolute;bottom:0;left:0;width:4px;height:4px;z-index:8;background-color:#ebebeb}
+.graphWRed div span.graphBarZero.hover{background-color:#999}
+.graphWGreen{width:100%;}
+.graphWGreen div{position:relative;width:4px;height:80px;min-height:80px;margin:0 1px 0 0;display:inline-block;}
+.graphWGreen div span{position:absolute;bottom:0;left:0;width:4px;z-index:7;background-color:#34a60c}
+.graphWGreen div span.hover{cursor:pointer;background-color:#257609}
+.graphWGreen div span.graphSpecial{position:absolute;bottom:0;left:0;width:4px;z-index:7;background-color:#b02e24}
+.graphWGreen div span.graphSpecial.hover{cursor:pointer;background-color:#86231b}
+.graphWGreen div span.graphBarZero{position:absolute;bottom:0;left:0;width:4px;height:4px;z-index:8;background-color:#ebebeb}
+.graphWGreen div span.graphBarZero.hover{background-color:#999}
+.graphWGold{width:100%}
+.graphWGold div{position:relative;width:4px;height:80px;min-height:80px;margin:0 1px 0 0;display:inline-block;}
+.graphWGold div span{position:absolute;bottom:0;left:0;width:4px;z-index:7;background-color:#aaa61a}
+.graphWGold div span.hover{cursor:pointer;background-color:#7e7b13}
+.graphWGold div span.graphSpecial{position:absolute;bottom:0;left:0;width:4px;z-index:7;background-color:#b02e24}
+.graphWGold div span.graphSpecial.hover{cursor:pointer;background-color:#86231b}
+.graphWGold div span.graphBarZero{position:absolute;bottom:0;left:0;width:4px;height:4px;z-index:8;background-color:#ebebeb}
+.graphWGold div span.graphBarZero.hover{background-color:#999}
+.graphWYellow{width:100%}
+.graphWYellow div{position:relative;width:4px;height:80px;min-height:80px;margin:0 1px 0 0;display:inline-block;}
+.graphWYellow div span{position:absolute;bottom:0;left:0;width:4px;z-index:7;background-color:#d6d14b}
+.graphWYellow div span.hover{cursor:pointer;background-color:#c2bc2c}
+.graphWYellow div span.graphSpecial{position:absolute;bottom:0;left:0;width:4px;z-index:7;background-color:#b02e24}
+.graphWYellow div span.graphSpecial.hover{cursor:pointer;background-color:#86231b}
+.graphWYellow div span.graphBarZero{position:absolute;bottom:0;left:0;width:4px;height:4px;z-index:8;background-color:#ebebeb}
+.graphWYellow div span.graphBarZero.hover{background-color:#999}
+.graphWOrange{width:100%}
+.graphWOrange div{position:relative;width:4px;height:80px;min-height:80px;margin:0 1px 0 0;display:inline-block;}
+.graphWOrange div span{position:absolute;bottom:0;left:0;width:4px;z-index:7;background-color:#f3aa28}
+.graphWOrange div span.hover{cursor:pointer;background-color:#dc910c}
+.graphWOrange div span.graphSpecial{position:absolute;bottom:0;left:0;width:4px;z-index:7;background-color:#b02e24}
+.graphWOrange div span.graphSpecial.hover{cursor:pointer;background-color:#86231b}
+.graphWOrange div span.graphBarZero{position:absolute;bottom:0;left:0;width:4px;height:4px;z-index:8;background-color:#ebebeb}
+.graphWOrange div span.graphBarZero.hover{background-color:#999}
+.graphWOrangeDark{width:100%}
+.graphWOrangeDark div{position:relative;width:4px;height:80px;min-height:80px;margin:0 1px 0 0;display:inline-block;}
+.graphWOrangeDark div span{position:absolute;bottom:0;left:0;width:4px;z-index:7;background-color:#c97c49}
+.graphWOrangeDark div span.hover{cursor:pointer;background-color:#ac6333}
+.graphWOrangeDark div span.graphSpecial{position:absolute;bottom:0;left:0;width:4px;z-index:7;background-color:#b02e24}
+.graphWOrangeDark div span.graphSpecial.hover{cursor:pointer;background-color:#86231b}
+.graphWOrangeDark div span.graphBarZero{position:absolute;bottom:0;left:0;width:4px;height:4px;z-index:8;background-color:#ebebeb}
+.graphWOrangeDark div span.graphBarZero.hover{background-color:#999}
+.graphWBrown{width:100%}
+.graphWBrown div{position:relative;width:4px;height:80px;min-height:80px;margin:0 1px 0 0;display:inline-block;}
+.graphWBrown div span{position:absolute;bottom:0;left:0;width:4px;z-index:7;background-color:#98764e}
+.graphWBrown div span.hover{cursor:pointer;background-color:#765c3d}
+.graphWBrown div span.graphSpecial{position:absolute;bottom:0;left:0;width:4px;z-index:7;background-color:#b02e24}
+.graphWBrown div span.graphSpecial.hover{cursor:pointer;background-color:#86231b}
+.graphWBrown div span.graphBarZero{position:absolute;bottom:0;left:0;width:4px;height:4px;z-index:8;background-color:#ebebeb}
+.graphWBrown div span.graphBarZero.hover{background-color:#999}
+.graphWBlue{width:100%}
+.graphWBlue div{position:relative;width:4px;height:80px;min-height:80px;margin:0 1px 0 0;display:inline-block;}
+.graphWBlue div span{position:absolute;bottom:0;left:0;width:4px;z-index:7;background-color:#609fc7}
+.graphWBlue div span.hover{cursor:pointer;background-color:#4087b4}
+.graphWBlue div span.graphSpecial{position:absolute;bottom:0;left:0;width:4px;z-index:7;background-color:#b02e24}
+.graphWBlue div span.graphSpecial.hover{cursor:pointer;background-color:#86231b}
+.graphWBlue div span.graphBarZero{position:absolute;bottom:0;left:0;width:4px;height:4px;z-index:8;background-color:#ebebeb}
+.graphWBlue div span.graphBarZero.hover{background-color:#999}
+.graphWVioleta{width:100%}
+.graphWVioleta div{position:relative;width:4px;height:80px;min-height:80px;margin:0 1px 0 0;display:inline-block;}
+.graphWVioleta div span{position:absolute;bottom:0;left:0;width:4px;z-index:7;background-color:#9c51a8}
+.graphWVioleta div span.hover{cursor:pointer;background-color:#7c4086}
+.graphWVioleta div span.graphSpecial{position:absolute;bottom:0;left:0;width:4px;z-index:7;background-color:#b02e24}
+.graphWVioleta div span.graphSpecial.hover{cursor:pointer;background-color:#86231b}
+.graphWVioleta div span.graphBarZero{position:absolute;bottom:0;left:0;width:4px;height:4px;z-index:8;background-color:#ebebeb}
+.graphWVioleta div span.graphBarZero.hover{background-color:#999}
+
+
+.graphBarData{position:relative;width:100%;min-height:16px;padding:5px 0;background-color:#f9f9f9;text-align:center;font-size:.6em;color:#999}
+.graphBarData span.one{position:absolute;left:20%;z-index:20}
+.graphBarData span.two{position:absolute;left:45%;z-index:20}
+.graphBarData span.three{position:absolute;left:70%;z-index:20}
