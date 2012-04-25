@@ -74,6 +74,7 @@
 				$(graph).css('width',settings.width+'px');
 				var graphContent = document.createElement('div');
 				graphContent.setAttribute('class', 'graphCont');
+				$(graphContent).css('width',settings.width+'px');
 				var contentH = settings.type=='flatbars' ? 120 : 80; 
 				//$(graph).css('height',contentH+'px');
 				//*****************************************************************
@@ -81,6 +82,7 @@
 				
 				var bars = document.createElement('div');
 				bars.setAttribute('class', graphBarClass);
+				$(graphContent).css('width',settings.width+'px');
 				if(settings.type=='flatbars'){$(bars).css('padding-left','20px');}
 				
 
@@ -110,14 +112,19 @@
 					var graphLines = document.createElement('div');
 					graphLines.setAttribute('class', 'graphLines');
 					max = Math.ceil(max / 0.95);
-					while(max%4!=0){
-						max++;
+					if(max<4){
+						max=4;
+					}else{
+						while(max%4!=0){
+							max++;
+						}
 					}
 					var graphLinesSel = $(graphLines);
 					graphLinesSel.append('<span class="first">'+max+'</span>')
 						.append('<span class="second">'+max*3/4+'</span>')
 						.append('<span class="third">'+max/2+'</span>')
 						.append('<span class="fourth">'+max/4+'</span>');
+					
 					graphLinesSel.appendTo(graphContent);		
 				}
 				
